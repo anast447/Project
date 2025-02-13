@@ -5,7 +5,7 @@ import java.util.List;
 // Основной класс Notepad
 public class Notepad {
 
-    private class Note {
+    private static class Note {
         String content;
 
         public Note(String content) {
