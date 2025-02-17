@@ -7,16 +7,16 @@ public class Сurrying {
 
     public static java.util.function.Function<String, java.util.function.Function<String, Boolean>> matches =
             regex -> input -> {
-                Pattern pattern = Pattern.compile(regex); // Компилируем регулярное выражение
-                Matcher matcher = pattern.matcher(input); // Создаем матчер для входной строки
-                return matcher.matches(); // Проверяем, соответствует ли строка регулярному выражению
+                Pattern pattern = Pattern.compile(regex);
+                Matcher matcher = pattern.matcher(input);
+                return matcher.matches();
             };
     // Функция для разбиения строки по регулярному выражению
     public static java.util.function.Function<String, java.util.function.Function<String, String[]>> split =
-            regex -> input -> input.split(regex); // Разбиваем строку по регулярному выражению
+            regex -> input -> input.split(regex);
 
     public static void main(String[] args) {
-        int sum = add.apply(21).apply(52); // Сложим 5 и 3
+        int sum = add.apply(21).apply(52);
         System.out.println("5 + 3 = " + sum);
 
         String regex = "\\d+"; //состоит ли строка только из цифр
@@ -30,7 +30,7 @@ public class Сurrying {
             }
 
         String text = "музыка,фильмы,игры,шоппинг";
-        String[] partition = split.apply(",").apply(text); // Разбиваем строку по запятой
+        String[] partition = split.apply(",").apply(text); //разбиваем строку по запятой
         System.out.println("Строка: " + text + ", разбита по запятой на:");
         for (String words : partition) {
             System.out.println(words);
