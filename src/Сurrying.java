@@ -11,7 +11,7 @@ public class Сurrying {
                 Matcher matcher = pattern.matcher(input);
                 return matcher.matches();
             };
-    // Функция для разбиения строки по регулярному выражению
+
     public static java.util.function.Function<String, java.util.function.Function<String, String[]>> split =
             regex -> input -> input.split(regex);
 
