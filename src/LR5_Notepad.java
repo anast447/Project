@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.List;
 
 // Основной класс Notepad
-public class Notepad {
+public class LR5_Notepad {
 
     private static class Note {
         String content;
@@ -19,7 +19,7 @@ public class Notepad {
 
     private final HashMap<String, List<Note>> notesByDate;
 
-    public Notepad() {
+    public LR5_Notepad() {
         notesByDate = new HashMap<>();
     }
 
@@ -39,7 +39,7 @@ public class Notepad {
     }
 
     public static void main(String[] args) {
-        Notepad notepad = new Notepad();
+        LR5_Notepad notepad = new LR5_Notepad();
         notepad.addNote("13.02.2025", "Сделать лабы по java");
         notepad.addNote("13.02.2025", "Сделать математику");
         notepad.addNote("13.02.2025", "Сделать лабы по android");

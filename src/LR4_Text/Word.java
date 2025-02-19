@@ -1,4 +1,4 @@
-package Text;
+package LR4_Text;
 
 public class Word {
     private String word;

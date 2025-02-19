@@ -1,7 +1,7 @@
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
-public class Сurrying {
+public class LR7_Сurrying {
     public static java.util.function.Function<Integer, java.util.function.Function<Integer, Integer>> add =
             a -> b -> a + b;
 

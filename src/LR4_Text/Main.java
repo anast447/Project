@@ -1,4 +1,4 @@
-package Text;
+package LR4_Text;
 
 public class Main {
     public static void main(String[] args) {

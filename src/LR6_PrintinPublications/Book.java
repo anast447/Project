@@ -1,4 +1,4 @@
-package PrintinPublications;
+package LR6_PrintinPublications;
 
 class Book implements Publication {
     private final String title;

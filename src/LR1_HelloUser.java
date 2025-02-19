@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HelloUser {
+public class LR1_HelloUser {
 
     public static void main(String[] args) {
         for (String arg: args) {

@@ -1,4 +1,4 @@
-package Students;
+package LR3_Students;
 
 public class Main {
 

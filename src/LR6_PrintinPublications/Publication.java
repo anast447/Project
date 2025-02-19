@@ -1,4 +1,4 @@
-package PrintinPublications;
+package LR6_PrintinPublications;
 
 interface Publication {
     void createContract();

@@ -1,4 +1,4 @@
-package Text;
+package LR4_Text;
 
 import java.util.ArrayList;
 import java.util.List;

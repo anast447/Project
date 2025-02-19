@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SearchNumbers {
+public class LR2_SearchNumbers {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

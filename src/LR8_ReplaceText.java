@@ -1,4 +1,4 @@
-public class ReplaceText {
+public class LR8_ReplaceText {
     public static void main(String[] args) {
         String text = "Привет Влад, ты лабы по джаве сделал?";
         int k = 3;
